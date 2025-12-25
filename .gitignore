@@ -1,0 +1,45 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.env
+.venv/
+env/
+venv/
+
+# Conda environment files (keep environment.yml, ignore hidden caches)
+*.conda
+*.ipynb_checkpoints/
+
+# Logs and debug
+*.log
+*.out
+*.err
+
+# Data files (optional — ignore raw exports if they’re large/private)
+*.csv
+*.tsv
+*.xls*
+*.xlsx
+*.json
+*.parquet
+
+# Secrets and credentials
+*.key
+*.pem
+*.env
+
+# VS Code settings
+.vscode/
+.settings/
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
+
+# Reports and generated files
+*.pdf
+*.docx
+*.pptx
